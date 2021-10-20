@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.toDoList{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    background-color: brown;
+}
+
+.listContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+.addListTitle{
+    font-size: 50px;
+    color: burlywood;
+}
+
+.addList{
+    width: 200px;
+    height: 30px;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: cadetblue;
+    width: 300px;
+    height: 600px;
+}
+
+.task{
+    background-color: brown;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    color: burlywood;
+    font-size: 30px;
+    border: 1px solid black;
+}
+
+.taskContainer{
+    margin-top: 30px;
+}
